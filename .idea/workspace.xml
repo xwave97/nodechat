@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1995b21a-759e-4aca-9f6d-17746d4f40db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/a.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +73,7 @@
       <workItem from="1599557093710" duration="2764000" />
       <workItem from="1599572251079" duration="1246000" />
       <workItem from="1599600178830" duration="4237000" />
-      <workItem from="1599645543502" duration="1079000" />
+      <workItem from="1599645543502" duration="6708000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599646078559</created>
@@ -67,15 +82,34 @@
       <option name="project" value="LOCAL" />
       <updated>1599646078559</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init2">
+      <created>1599646633702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599646633702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="init2" />
+    <option name="LAST_COMMIT_MESSAGE" value="init2" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -85,10 +119,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="422" y="293" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1599646600898" />
-    <state x="265" y="60" key="CommitChangelistDialog2" timestamp="1599646076841">
+    <state x="265" y="60" key="CommitChangelistDialog2" timestamp="1599646632630">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="265" y="60" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1599646076841" />
+    <state x="265" y="60" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1599646632630" />
     <state x="518" y="389" key="Github.ShareDialog" timestamp="1599484321482">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -97,9 +131,9 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="445" y="189" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1599484333124" />
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1599646080113">
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1599646699462">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1599646080113" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1599646699462" />
   </component>
 </project>
