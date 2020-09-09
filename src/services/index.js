@@ -5,10 +5,10 @@ import userUpdate from './userService/userUpdate.js'
 
 import database from '../models/index.js'
 
-const addUserHandler = userAdd({database})
-const deleteUserHandler = userDelete({database})
-const usersGetHandler = userGet({database})
-const userUpdateHandler = userUpdate({database})
+const addUserHandler = userAdd({database: database['user']});
+const deleteUserHandler = userDelete({database: database['user']});
+const usersGetHandler = userGet({database: database['user']});
+const userUpdateHandler = userUpdate({database: database['user']});
 
 const UserHandlerService = Object.freeze({
     addUserHandler,
