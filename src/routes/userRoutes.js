@@ -4,7 +4,7 @@ import {deleteUser,getAllUsers,postUser,updateUser} from '../controllers/index.j
 
 const userRouter = express.Router()
 
-userRouter.route('/')
+userRouter.route('')
 .post(makeCallBack(postUser))
 
 export default userRouter

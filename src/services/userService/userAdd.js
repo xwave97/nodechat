@@ -1,9 +1,9 @@
-import userEntity from "../../entity/user.js"
+import {makeUser} from "../../entity/index.js"
 
-export default function addUser({userTable}) {
+export default function addUser(userTable) {
     return async function (userInfo) {
-        const user = userEntity({...userInfo});
-        await userTable.create({user});
-        return user;
+        const user =makeUser({...userInfo});
+        userTable.create({...userInfo});
+        return {userInfo};
     }
 }

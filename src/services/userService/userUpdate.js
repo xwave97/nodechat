@@ -1,6 +1,6 @@
 import userEntity from "../../entity/user.js";
 
-export default function updateUser({userTable}) {
+export default function updateUser(userTable) {
     return async function (userInfo, userLogin) {
         const user = userEntity(userInfo);
         userTable.update({

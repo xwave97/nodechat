@@ -5,7 +5,8 @@ import userUpdate from './userService/userUpdate.js'
 
 import database from '../models/index.js'
 
-const addUserHandler = userAdd({database: database['user']});
+const usersTable = database.users;
+const addUserHandler = userAdd(usersTable);
 const deleteUserHandler = userDelete({database: database['user']});
 const usersGetHandler = userGet({database: database['user']});
 const userUpdateHandler = userUpdate({database: database['user']});

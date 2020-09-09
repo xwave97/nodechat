@@ -12,7 +12,7 @@ export default function MakeUpdateUser(updateUserService){
             }
         } catch (error) {
             return {
-                headers: {'Content-Type': 'application/json', 'Last-Modified': new Date(post.updated).toUTCString()},
+                headers: {'Content-Type': 'application/json'},
                 statusCode:500,
                 body:{
                     error:error.message
