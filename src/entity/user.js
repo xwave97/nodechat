@@ -1,4 +1,5 @@
 import EValidator from 'email-validator'
+
 export default function BuildCreateUser() {
   return function CreateUser({
     user_id,
@@ -9,13 +10,13 @@ export default function BuildCreateUser() {
     updated =Date.now()
   }={}) {
     if (user_login<2) {
-      throw new Error('User must be longer than 2 characters')
+      throw new Error('User must be longer than 2 characters');
     }
     if (user_password.length<6) {
-      throw new Error('')
+      throw new Error('Password must contains 6 and more symbols');
     }
     if (!EValidator.validate(user_mail)) {
-      throw new Error('Uncorrect Email')
+      throw new Error('Uncorrect Email');
     }
     return Object({
       GetId: () => user_id,
