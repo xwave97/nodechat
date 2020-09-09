@@ -1,0 +1,97 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"1995b21a-759e-4aca-9f6d-17746d4f40db\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/package-lock.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package-lock.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package.json\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1hBUSjmkV7zcd5mfEwVl2X8PACa\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"javascript.nodejs.core.library.configured.version\" value=\"14.9.0\" />\r\n    <property name=\"javascript.nodejs.core.library.typings.version\" value=\"14.6.4\" />\r\n    <property name=\"nodejs_interpreter_path\" value=\"node\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.lookFeel\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"1995b21a-759e-4aca-9f6d-17746d4f40db\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1599483980768</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1599483980768</updated>\r\n      <workItem from=\"1599483982339\" duration=\"2862000\" />\r\n      <workItem from=\"1599523477876\" duration=\"2019000\" />\r\n      <workItem from=\"1599557093710\" duration=\"2764000\" />\r\n      <workItem from=\"1599572251079\" duration=\"1246000\" />\r\n      <workItem from=\"1599600178830\" duration=\"4237000\" />\r\n      <workItem from=\"1599645543502\" duration=\"6708000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"init\">\r\n      <created>1599646078559</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599646078559</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"init2\">\r\n      <created>1599646633702</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599646633702</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"init\" />\r\n    <MESSAGE value=\"init2\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"init2\" />\r\n    <option name=\"OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT\" value=\"true\" />\r\n    <option name=\"REFORMAT_BEFORE_PROJECT_COMMIT\" value=\"true\" />\r\n    <option name=\"REARRANGE_BEFORE_PROJECT_COMMIT\" value=\"true\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"422\" y=\"293\" key=\"#com.intellij.fileTypes.FileTypeChooser\" timestamp=\"1599646600898\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state x=\"422\" y=\"293\" key=\"#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984\" timestamp=\"1599646600898\" />\r\n    <state x=\"265\" y=\"60\" key=\"CommitChangelistDialog2\" timestamp=\"1599646632630\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state x=\"265\" y=\"60\" key=\"CommitChangelistDialog2/0.0.1280.984@0.0.1280.984\" timestamp=\"1599646632630\" />\r\n    <state x=\"518\" y=\"389\" key=\"Github.ShareDialog\" timestamp=\"1599484321482\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state x=\"518\" y=\"389\" key=\"Github.ShareDialog/0.0.1280.984@0.0.1280.984\" timestamp=\"1599484321482\" />\r\n    <state x=\"445\" y=\"189\" key=\"Github.UntrackedFilesDialog\" timestamp=\"1599484333124\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state x=\"445\" y=\"189\" key=\"Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984\" timestamp=\"1599484333124\" />\r\n    <state x=\"232\" y=\"224\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1599646699462\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state x=\"232\" y=\"224\" key=\"Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984\" timestamp=\"1599646699462\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 8264c92f2b683c496b10f1fd727d696b88fc4408)
++++ .idea/workspace.xml	(date 1599661134780)
+@@ -21,8 +21,8 @@
+   <component name="ChangeListManager">
+     <list default="true" id="1995b21a-759e-4aca-9f6d-17746d4f40db" name="Default Changelist" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/entity/a.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -73,7 +73,7 @@
+       <workItem from="1599557093710" duration="2764000" />
+       <workItem from="1599572251079" duration="1246000" />
+       <workItem from="1599600178830" duration="4237000" />
+-      <workItem from="1599645543502" duration="6708000" />
++      <workItem from="1599645543502" duration="9427000" />
+     </task>
+     <task id="LOCAL-00001" summary="init">
+       <created>1599646078559</created>
+@@ -89,7 +89,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1599646633702</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="init3">
++      <created>1599654218046</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1599654218046</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -109,7 +116,8 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="init" />
+     <MESSAGE value="init2" />
+-    <option name="LAST_COMMIT_MESSAGE" value="init2" />
++    <MESSAGE value="init3" />
++    <option name="LAST_COMMIT_MESSAGE" value="init3" />
+     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+@@ -119,10 +127,10 @@
+       <screen x="0" y="0" width="1280" height="984" />
+     </state>
+     <state x="422" y="293" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1599646600898" />
+-    <state x="265" y="60" key="CommitChangelistDialog2" timestamp="1599646632630">
++    <state x="265" y="60" key="CommitChangelistDialog2" timestamp="1599654216648">
+       <screen x="0" y="0" width="1280" height="984" />
+     </state>
+-    <state x="265" y="60" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1599646632630" />
++    <state x="265" y="60" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1599654216648" />
+     <state x="518" y="389" key="Github.ShareDialog" timestamp="1599484321482">
+       <screen x="0" y="0" width="1280" height="984" />
+     </state>
+@@ -131,9 +139,9 @@
+       <screen x="0" y="0" width="1280" height="984" />
+     </state>
+     <state x="445" y="189" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1599484333124" />
+-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1599646699462">
++    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1599654220039">
+       <screen x="0" y="0" width="1280" height="984" />
+     </state>
+-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1599646699462" />
++    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1599654220039" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import express from \"express\";\r\nimport serv from \"http\";\r\nimport socket from \"socket.io\";\r\n\r\nlet app = express();\r\nlet server = serv.createServer(app);\r\nlet io = socket.listen(server);\r\n\r\nserver.listen(3000, () => {\r\n    console.log(\"its works\");\r\n});\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/index.js	(revision 8264c92f2b683c496b10f1fd727d696b88fc4408)
++++ src/index.js	(date 1599661134256)
+@@ -14,4 +14,3 @@
+ 
+ 
+ 
+-
+diff --git src/entity/a.js src/entity/a.js
+deleted file mode 100644

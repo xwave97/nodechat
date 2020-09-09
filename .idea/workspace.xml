@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1995b21a-759e-4aca-9f6d-17746d4f40db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/services/userService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/userService/userAdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/userService/userUpdate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/a.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/userService/userDelete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/userService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/userService/userGet.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +62,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\romal\PhpstormProjects\nodechat\src\services\userservice" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,7 +80,7 @@
       <workItem from="1599557093710" duration="2764000" />
       <workItem from="1599572251079" duration="1246000" />
       <workItem from="1599600178830" duration="4237000" />
-      <workItem from="1599645543502" duration="9828000" />
+      <workItem from="1599645543502" duration="13130000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599646078559</created>
@@ -100,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599654218046</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix fileNames">
+      <created>1599661583363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599661583363</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +131,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="init2" />
     <MESSAGE value="init3" />
-    <option name="LAST_COMMIT_MESSAGE" value="init3" />
+    <MESSAGE value="fix fileNames" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix fileNames" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -131,10 +142,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="422" y="293" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1599646600898" />
-    <state x="265" y="60" key="CommitChangelistDialog2" timestamp="1599654216648">
+    <state x="265" y="60" key="CommitChangelistDialog2" timestamp="1599661581947">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="265" y="60" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1599654216648" />
+    <state x="265" y="60" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1599661581947" />
     <state x="518" y="389" key="Github.ShareDialog" timestamp="1599484321482">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -143,10 +154,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="445" y="189" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1599484333124" />
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1599654220039">
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1599661585168">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1599654220039" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1599661585168" />
     <state x="457" y="405" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599661240358">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
