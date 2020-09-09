@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "nodechat",
   "version": "1.0.0",
   "description": "",
@@ -14,6 +15,7 @@
     "email-validator": "^2.0.4",
     "expressapp": "^1.0.4",
     "mysql2": "^2.1.0",
-    "sequelize": "^6.3.5"
+    "sequelize": "^6.3.5",
+    "socket.io": "^2.3.0"
   }
 }
