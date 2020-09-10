@@ -5,5 +5,6 @@ export default function deleteUser(userTable) {
                 user_id: userId,
             }
         });
+        return userId
     }
 }

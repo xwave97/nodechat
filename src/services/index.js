@@ -7,9 +7,9 @@ import database from '../models/index.js'
 
 const usersTable = database.users;
 const addUserHandler = userAdd(usersTable);
-const deleteUserHandler = userDelete({database: database['user']});
-const usersGetHandler = userGet({database: database['user']});
-const userUpdateHandler = userUpdate({database: database['user']});
+const deleteUserHandler = userDelete(usersTable);
+const usersGetHandler = userGet(usersTable);
+const userUpdateHandler = userUpdate(usersTable);
 
 const UserHandlerService = Object.freeze({
     addUserHandler,
