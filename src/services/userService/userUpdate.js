@@ -1,16 +1,18 @@
-import userEntity from "../../entity/user.js";
+import {makeUser} from "../../entity/index.js";
 
 export default function updateUser(userTable) {
     return async function (userInfo) {
-        const {login,...other} = userInfo
-        const user = userEntity(other);
+        const {user_mail,...other} = userInfo
+        const updatedAt =Date.now()    
+        const user = makeUser({user_mail,updatedAt,...other});
+        console.log(user)
         userTable.update({
                 user_login: user.GetLogin(),
-                user_mail: user.GetMail(),
                 user_password: user.GetPass(),
+                updatedAt:user.GetUpdatedDate()
             },
-            {where: {user_login: login}},
+            {where: {user_mail: user_mail}},
         )
-        return user;
+        return {user_login: user.GetLogin(),updatedAt:new Date(user.GetUpdatedDate())};
     }
 }

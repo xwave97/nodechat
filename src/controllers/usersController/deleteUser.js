@@ -2,13 +2,17 @@ export default function MakeDeleteUser(deleteUserService){
     return async function deleteUser(httpRequest){
         try {
             const userId = httpRequest.body
-            const deleteUser = await deleteUserService({...userId})
+            const deleteUser = await deleteUserService(userId)
             return {
-                headers: {'Content-Type': 'application/json', 'Last-Modified': new Date(post.updated).toUTCString()},
+                headers: {'Content-Type': 'application/json'},
                 statusCode:201,
-                body:'User was deleted'     
+                body:{
+                   mes:'User was deleted',
+                   user:deleteUser
+                }     
             }
         } catch (error) {
+            console.log(error)
             return {
                 headers: {'Content-Type': 'application/json'},
                 statusCode:500,

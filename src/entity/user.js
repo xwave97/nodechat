@@ -2,14 +2,14 @@ import EValidator from 'email-validator'
 
 export default function BuildCreateUser() {
   return function CreateUser({
-    user_id,
+    user_id=null,
     user_login, 
     user_password, 
     user_mail,
     createAt=Date.now(),
     updated =Date.now()
   }={}) {
-    if (user_login<2) {
+    if (user_login.length<2) {
       throw new Error('User must be longer than 2 characters');
     }
     if (user_password.length<6) {

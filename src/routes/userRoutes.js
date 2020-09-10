@@ -6,5 +6,8 @@ const userRouter = express.Router()
 
 userRouter.route('')
 .post(makeCallBack(postUser))
+.get(makeCallBack(getAllUsers))
+.patch(makeCallBack(updateUser))
+.delete(makeCallBack(deleteUser))
 
 export default userRouter
